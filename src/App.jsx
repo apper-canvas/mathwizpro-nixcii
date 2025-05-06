@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
+          <p>© {new Date().getFullYear()} matchCalii. All rights reserved.</p>
 import 'react-toastify/dist/ReactToastify.css';
 import { motion } from 'framer-motion';
 import Home from './pages/Home';
