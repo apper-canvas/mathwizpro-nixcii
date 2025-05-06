@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-          matchCalii
+import MainFeature from '../components/MainFeature';
 import getIcon from '../utils/iconUtils';
 
 const Home = () => {
@@ -42,7 +42,7 @@ const Home = () => {
           <CalculatorIcon className="w-8 h-8 md:w-10 md:h-10" />
         </motion.div>
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-2">
-          MathWizPro
+          matchCalii
         </h1>
         <p className="text-lg md:text-xl text-surface-600 dark:text-surface-300 text-center max-w-2xl">
           Your advanced calculator for all mathematical operations
